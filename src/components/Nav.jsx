@@ -5,7 +5,7 @@ import { NavItem } from "./NavItem";
 
 export const Nav=()=>{
     return(
-        <Grid container spacing={2}>
+        <Grid container spacing={2} sx={{marginBottom:5}}>
             {
                 navdata.map((item)=>
                 <NavItem item={item} />
